@@ -19,3 +19,4 @@ Route::get('/cats', function () {
     echo 'hello cats'; exit;
     return view('welcome');
 });
+
