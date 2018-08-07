@@ -17,8 +17,8 @@ class CreateCatsTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->date('date_of_birth');
-            $table -> integer('breeds_id' )-> unsigned() -> nullable();
-            $table -> foreign('breeds_id') ->references('id')->on('breeds');
+            $table -> integer('breed_id' )-> unsigned() -> nullable();
+            $table -> foreign('breed_id') ->references('id')->on('breeds');
             $table->timestamps();
         });
     }

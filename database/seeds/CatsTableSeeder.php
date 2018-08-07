@@ -16,7 +16,7 @@ class CatsTableSeeder extends Seeder
            'id' =>1,
            'name' =>'meo tam the',
             'date_of_birth' =>date('Y-m-d'),
-            'breeds_id' =>1,
+            'breed_id' =>1,
             'created_at'=>$currentDatetime,
             'updated_at'=>$currentDatetime,
         ]);
