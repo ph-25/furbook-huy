@@ -2,7 +2,7 @@
 
 namespace App\Http\ViewComposers;
 
-use App\Breed;
+use App\Models\Breed;
 use Illuminate\View\View;
 use App\Repositories\UserRepository;
 

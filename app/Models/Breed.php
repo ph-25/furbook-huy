@@ -6,7 +6,7 @@
  * Time: 7:03 PM
  */
 
-namespace App;
+namespace App\Models;
 
 
 use Illuminate\Database\Eloquent\Model;
@@ -14,7 +14,7 @@ use Illuminate\Database\Eloquent\Model;
 class Breed extends Model
 {
     public function cats(){
-        return $this->hasMany('App\Cat');
+        return $this->hasMany('App\Models\Cat');
     }
 
 }

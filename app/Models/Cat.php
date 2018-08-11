@@ -6,7 +6,7 @@
  * Time: 7:04 PM
  */
 
-namespace App;
+namespace App\Models;
 
 
 use Illuminate\Database\Eloquent\Model;
@@ -16,6 +16,6 @@ class Cat extends Model
     protected $fillable=['name','date_of_birth','breed_id'];
 
     public  function  breed(){
-        return $this->belongsTo('App\Breed');
+        return $this->belongsTo('App\Models\Breed');
     }
 }
